@@ -1,0 +1,43 @@
+ 
+
+footer,header
+{
+    
+    background-color: rgba(4, 233, 183, 0.5);
+    width: 90%;
+    margin: auto auto;
+}
+footer h6
+{
+    font-size: 12px;
+    text-align: center;
+}
+header nav
+{
+    background-color: rgba(5, 144, 105, 0.7);
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none; /* quita los puntos del menu*/
+}
+header nav ul li
+{
+    float: left; /* Colocar el menu a la izquierda*/
+    font-size: 11px;
+}
+header nav ul li a
+{
+    color: white;
+    text-decoration: none; /* Quita lo subrayado del menu*/
+    display: block; /* para que funcione el padding */
+    padding: 10px 10px; 
+}
+header nav ul li a:hover /* efectos al colocar el mouse */
+{
+    background:  rgb(255, 255, 255) ;
+    color: rgba(6, 248, 180, 0.7); 
+}
+  
+
+ 
+ 
